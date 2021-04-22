@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ComingSoon from "../comingSoon/index.jsx";
+import ContactInfo from "../contactInfo/index.jsx";
+
 import styled from "styled-components";
 const AppWrapper = styled.div`
   display: flex;
@@ -16,6 +18,12 @@ const Title = styled.div`
 const TMGTitle = styled.div`
   font-size: 60px;
 `;
+
+const ComingSoonImg = styled.img`
+  max-width: 100vw;
+  max-height: 60vh;
+`;
+
 function App() {
   return (
     <AppWrapper>
@@ -23,6 +31,7 @@ function App() {
         <TMGTitle>The Mundo Group</TMGTitle>
       </Title>
       <ComingSoon />
+      <ContactInfo />
     </AppWrapper>
   );
 }

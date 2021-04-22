@@ -15,7 +15,7 @@ function ComingSoon(props) {
   return (
     <Wrapper>
       <ComingSoonImg
-        src="./Untitled-design-2019-10-29T153346.079.jpg"
+        src="https://s3-us-west-1.amazonaws.com/themundogroup.com/Untitled-design-2019-10-29T153346.079.jpg"
         alt="coming-soon-picture"
       ></ComingSoonImg>
     </Wrapper>

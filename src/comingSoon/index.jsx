@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const ComingSoonImg = styled.img`
   max-width: 100vw;
-  max-height: 60vh;
+  height: auto;
   box-shadow: 0 0 16px 16px #000306 inset;
 `;
 
